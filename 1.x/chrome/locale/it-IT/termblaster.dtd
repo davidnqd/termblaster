@@ -1,0 +1,33 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Cerca testo selezionato con">
+<!ENTITY tbBrowser.ql-menu "Cerca con lista rapida con">
+<!ENTITY tbBrowser.db.hotkey "z">
+<!ENTITY tbBrowser.qk.hotkey "O">
+<!ENTITY tbBlaster.title "Cerca con termBlaster">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "Visualizza la barra laterale di termBlaster">
+<!ENTITY tbBlaster.search-label "Inserire un termine da cercare:">
+<!ENTITY tbBlaster.search-tooltip "Digitare un termine da cercare e poi premere il tasto &apos;Invio&apos;">
+<!ENTITY tbBlaster.terms_clear-label "Elimina tutti">
+<!ENTITY tbBlaster.terms_new-label "Nuovo">
+<!ENTITY tbBlaster.terms_open-label "Apri...">
+<!ENTITY tbBlaster.terms_save-label "Salva">
+<!ENTITY tbBlaster.terms_saveas-label "Salva con nome...">
+<!ENTITY tbBlaster.services_load-label "Carica">
+<!ENTITY tbBlaster.services_load-command "Nella finestra delle impostazioni di termBlaster modificare l&apos;opzione &quot;File della lista rapida&quot;">
+<!ENTITY tbOptions.Description "Indirizzo del file: (ricordarsi di http:// o file:///)">
+<!ENTITY tbOptions.Caption "Opzioni di termBlaster">
+<!ENTITY tbOptions.DbLocation "File della lista dei servizi:">
+<!ENTITY tbOptions.QlLocation "File della lista rapida:">
+<!ENTITY tbOptions.Browse "Sfoglia...">
+<!ENTITY tbOptions.Reload "Ricarica la lista dei servizi">
+<!ENTITY tbOptions.SearchAction "I risultati di ricerca verranno visualizzati:">
+<!ENTITY tbOptions.DisplaySearchWindow "nella finestra di ricerca">
+<!ENTITY tbOptions.DisplayNewTab "in una nuova scheda">
+<!ENTITY tbOptions.DisplayNewWindow "in una nuova finestra">
+<!ENTITY tbOptions.DisplayCurrentTab "nella scheda attuale">
+<!ENTITY tbOptions.Send "Aggiungi alla lista di termini di termBlaster">
+<!ENTITY tbOptions.cbQuote-label "Cita automaticamente il testo">
+<!ENTITY tbOptions.cbFocusResults-label "Porta sempre in primo piano i risultati">
+<!ENTITY tbOptions.cbDatabaseFolder-label "Posiziona gli elementi del menu &apos;Cerca testo selezionato con&apos; direttamente nel menu contestuale senza raggrupparli">
+<!ENTITY tbOptions.cbQuicklistFolder-label "Posiziona gli elementi del menu &apos;Cerca con lista rapida con&apos; direttamente nel menu contestuale senza raggrupparli">

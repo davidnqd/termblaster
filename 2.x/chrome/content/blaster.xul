@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    termBlaster extension for Mozilla Firefox
+    Copyright (C) 2006-2008 David Duong
+    HomePage: http://termblaster.forizon.com
+
+    LICENSE
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License (GPL)
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have recieved the lincence included with the disribution.
+    If not visit http://www.gnu.org/copyleft/gpl.html
+-->
+<?xml-stylesheet href="chrome://global/skin/" type"text/css" ?>
+<?xml-stylesheet href="chrome://browser/skin/browser.css" type="text/css" ?>
+
+<?xml-stylesheet href="chrome://termblaster/skin/styles/overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/content/places/places.css"?>
+
+<!DOCTYPE page SYSTEM "chrome://termblaster/locale/termblaster.dtd">
+
+<page id="sbBlaster"
+      title="&tbBlaster.title;"
+      onload="termBlaster_Blaster.onLoad();"
+      onunload="termBlaster_Blaster.onUnLoad();"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+    <!-- include the required .js files -->
+    <script type="application/x-javascript"
+            src="chrome://global/content/globalOverlay.js"/>
+    <script type="application/x-javascript"
+            src="chrome://browser/content/places/utils.js"/>
+    <script type="application/x-javascript"
+            src="chrome://browser/content/places/controller.js"/>
+    <script type="application/x-javascript"
+          src="chrome://browser/content/places/treeView.js"/>
+    <script type="application/x-javascript" src="blaster.js"/>
+  <vbox>
+    <label control="search"
+           value="&tbBlaster.search-label;"
+           tooltiptext="&tbBlaster.search-tooltip;"/>
+    <textbox id="search"
+             onkeypress="termBlaster_Blaster.onTermsKeyPress(event);"
+             tooltiptext="&tbBlaster.search-tooltip;" />
+  </vbox>
+  <vbox flex="1">
+    <listbox id="terms"
+             flex="1"
+             onselect="termBlaster_Blaster.doSearch(event);"
+             context="terms_menu" />
+    <splitter collapse="after"/>
+    <listbox id="services"
+             flex="1"
+             onselect="termBlaster_Blaster.doSearch(event);" />
+  </vbox>
+  <popupset>
+    <popup id='terms_menu'>
+      <menuitem label="&tbBlaster.terms_clear-label;"
+                oncommand="termBlaster_Blaster.doClearTerms()"/>
+      <menuseparator/>
+      <menuitem label="&tbBlaster.terms_new-label;"
+                oncommand="termBlaster_Blaster.doNewTerms()"/>
+      <menuitem label="&tbBlaster.terms_open-label;"
+                oncommand="termBlaster_Blaster.doOpenTerms()"/>
+      <menuitem label="&tbBlaster.terms_save-label;"
+                oncommand="termBlaster_Blaster.doSaveTerms()"/>
+      <menuitem label="&tbBlaster.terms_saveas-label;"
+                oncommand="termBlaster_Blaster.doSaveAsTerms()"/>
+      <menuseparator/>
+      <menu id="database-menu"
+            label="&tbBrowser.db-menu;"
+            accesskey="&tbBrowser.db.hotkey;"
+            class="menu-iconic termblaster-icon-small"
+            oncommand="termBlaster_Blaster.doSearchWithEvent(event);">
+          <menupopup id="database-popup" type="places" />
+      </menu>
+    </popup>
+  </popupset>
+</page>

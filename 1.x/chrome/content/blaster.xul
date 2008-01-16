@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--
+termBlaster extension for Mozilla Firefox
+Copyright (C) 2006 David Duong
+HomePage: http://termblaster.forizon.com
+
+LICENSE
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License (GPL)
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have recieved the lincence included with the disribution.
+If not visit http://www.gnu.org/copyleft/gpl.html
+-->
+<?xml-stylesheet href="chrome://global/skin/" type"text/css" ?>
+<?xml-stylesheet href="chrome://browser/skin/browser.css" type="text/css" ?>
+<!DOCTYPE page SYSTEM "chrome://termblaster/locale/termblaster.dtd">
+
+<page id="sbBlaster" title="&tbBlaster.title;"
+        onload="Blaster.load();"
+        onunload="Blaster.unLoad();"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+  <script type="application/x-javascript" src="global.js"/>
+  <script type="application/x-javascript" src="blaster.js"/>
+  <vbox>
+    <label control="search" value="&tbBlaster.search-label;" tooltiptext="&tbBlaster.search-tooltip;"/>
+    <textbox id="search" onkeypress="Blaster.onTermsKeyPress(event);" tooltiptext="&tbBlaster.search-tooltip;" />
+  </vbox>
+  <vbox flex="1">
+    <listbox id="terms" flex="1" onselect="Blaster.onTermsChangeSelection();" context="terms_menu" />
+    <splitter collapse="after"/>
+    <listbox id="services" flex="1" onselect="Blaster.onTermsChangeSelection();" context="services_menu" />
+  </vbox>
+  <popupset>
+    <popup id='terms_menu'>
+      <menuitem label="&tbBlaster.terms_clear-label;" oncommand="Blaster.clearTerms()"/>
+      <menuseparator/>
+      <menuitem label="&tbBlaster.terms_new-label;" oncommand="Blaster.newTerms()"/>
+      <menuitem label="&tbBlaster.terms_open-label;" oncommand="Blaster.openTerms()"/>
+      <menuitem label="&tbBlaster.terms_save-label;" oncommand="Blaster.saveTerms()"/>
+      <menuitem label="&tbBlaster.terms_saveas-label;" oncommand="Blaster.saveAsTerms()"/>
+    </popup>
+    <popup id='services_menu'>
+      <menuitem label="&tbBlaster.services_load-label;" oncommand="alert('&tbBlaster.services_load-command;')"/>
+    </popup>
+  </popupset>
+</page>

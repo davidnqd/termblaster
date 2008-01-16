@@ -1,0 +1,31 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "搜索选中对象使用">
+<!ENTITY tbBrowser.ql-menu "快速列表">
+<!ENTITY tbBrowser.db.hotkey "S">
+<!ENTITY tbBrowser.qk.hotkey "Q">
+<!ENTITY tbBlaster.title "搜索引擎列表">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "显示 termBlaster 侧栏">
+<!ENTITY tbBlaster.search-label "输入一个搜索关键字：">
+<!ENTITY tbBlaster.search-tooltip "输入一个搜索关键字然后回车">
+<!ENTITY tbBlaster.terms_clear-label "清除·">
+<!ENTITY tbBlaster.terms_new-label "新建">
+<!ENTITY tbBlaster.terms_open-label "打开...">
+<!ENTITY tbBlaster.terms_save-label "保存">
+<!ENTITY tbBlaster.terms_saveas-label "另存为...">
+<!ENTITY tbBlaster.services_load-label "加载">
+<!ENTITY tbBlaster.services_load-command "在 termBlaster 设置窗口， 修改 [快速列表文件] 设置">
+<!ENTITY tbOptions.Description "文件位置： (记住 http:// 或 file:///)">
+<!ENTITY tbOptions.Caption "termBlaster 选项">
+<!ENTITY tbOptions.DbLocation "服务列表文件：">
+<!ENTITY tbOptions.QlLocation "快速列表文件：">
+<!ENTITY tbOptions.Browse "浏览...">
+<!ENTITY tbOptions.Reload "重载服务列表">
+<!ENTITY tbOptions.SearchAction "搜索结果将：">
+<!ENTITY tbOptions.DisplaySearchWindow "显示在搜索窗口中">
+<!ENTITY tbOptions.DisplayNewTab "显示在新标签页中">
+<!ENTITY tbOptions.DisplayNewWindow "显示在新窗口中">
+<!ENTITY tbOptions.DisplayCurrentTab "显示在当前标签页中">
+<!ENTITY tbOptions.Send "添加至 termBlaster 列表">
+<!ENTITY tbOptions.cbQuote-label "自动引用文字">
+<!ENTITY tbOptions.cbFocusResults-label "总是聚焦于结果">

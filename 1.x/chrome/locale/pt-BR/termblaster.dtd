@@ -1,0 +1,33 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Search Selected With">
+<!ENTITY tbBrowser.ql-menu "Quick List">
+<!ENTITY tbBrowser.db.hotkey "S">
+<!ENTITY tbBrowser.qk.hotkey "Q">
+<!ENTITY tbBlaster.title "Search Blaster">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "Display the termBlaster Side Bar">
+<!ENTITY tbBlaster.search-label "Enter a Search:">
+<!ENTITY tbBlaster.search-tooltip "Type a search and press enter">
+<!ENTITY tbBlaster.terms_clear-label "Clear">
+<!ENTITY tbBlaster.terms_new-label "New">
+<!ENTITY tbBlaster.terms_open-label "Open..">
+<!ENTITY tbBlaster.terms_save-label "Save">
+<!ENTITY tbBlaster.terms_saveas-label "Save As..">
+<!ENTITY tbBlaster.services_load-label "Load">
+<!ENTITY tbBlaster.services_load-command "In the termBlaster settings window, modify the &quot;Quick List File&quot; setting">
+<!ENTITY tbOptions.Description "File locations: (remember the http:// or file:///)">
+<!ENTITY tbOptions.Caption "termBlaster Options">
+<!ENTITY tbOptions.DbLocation "Service List File:">
+<!ENTITY tbOptions.QlLocation "Quick List File:">
+<!ENTITY tbOptions.Browse "Browse...">
+<!ENTITY tbOptions.Reload "Reload Service Lists">
+<!ENTITY tbOptions.SearchAction "Searches are to be:">
+<!ENTITY tbOptions.DisplaySearchWindow "Displayed in Search Window">
+<!ENTITY tbOptions.DisplayNewTab "Displayed in New Tab">
+<!ENTITY tbOptions.DisplayNewWindow "Displayed in New Window">
+<!ENTITY tbOptions.DisplayCurrentTab "Displayed in Current Tab">
+<!ENTITY tbOptions.Send "Add to termBlaster&apos;s term list">
+<!ENTITY tbOptions.cbQuote-label "Automatically quote text">
+<!ENTITY tbOptions.cbFocusResults-label "Always focus results">
+<!ENTITY tbOptions.cbDatabaseFolder-label "Place Service List context menu items outside it&apos;s own subfolder">
+<!ENTITY tbOptions.cbQuicklistFolder-label "Place Quick List context menu items outside it&apos;s own subfolder">

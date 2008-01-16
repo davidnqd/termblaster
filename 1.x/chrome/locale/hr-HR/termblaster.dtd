@@ -1,0 +1,33 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Pretraži odabrano sa">
+<!ENTITY tbBrowser.ql-menu "Brzi popis">
+<!ENTITY tbBrowser.db.hotkey "P">
+<!ENTITY tbBrowser.qk.hotkey "B">
+<!ENTITY tbBlaster.title "Search Blaster">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "Prikaži termBlaster rubni stupac">
+<!ENTITY tbBlaster.search-label "Unesite pretragu:">
+<!ENTITY tbBlaster.search-tooltip "Upišite pretragu i pritisnite enter">
+<!ENTITY tbBlaster.terms_clear-label "Očisti">
+<!ENTITY tbBlaster.terms_new-label "Novo">
+<!ENTITY tbBlaster.terms_open-label "Otvori..">
+<!ENTITY tbBlaster.terms_save-label "Spremi">
+<!ENTITY tbBlaster.terms_saveas-label "Spremi kao..">
+<!ENTITY tbBlaster.services_load-label "Učitaj">
+<!ENTITY tbBlaster.services_load-command "U prozoru postavki termBlaster-a, promijenite postavke &quot;Datoteka brzog popisa&quot;">
+<!ENTITY tbOptions.Description "Pozicija datoteke: (zapamti http:// ili file:///)">
+<!ENTITY tbOptions.Caption "termBlaster Opcije">
+<!ENTITY tbOptions.DbLocation "Datoteka popisa usluga:">
+<!ENTITY tbOptions.QlLocation "Datoteka brzog popisa:">
+<!ENTITY tbOptions.Browse "Pronađi...">
+<!ENTITY tbOptions.Reload "Ponovno učitaj popis usluga">
+<!ENTITY tbOptions.SearchAction "Pretrage će biti:">
+<!ENTITY tbOptions.DisplaySearchWindow "Prikazane u prozoru pretrage">
+<!ENTITY tbOptions.DisplayNewTab "Prikazane u novoj kartici">
+<!ENTITY tbOptions.DisplayNewWindow "Prikazane u novom prozoru">
+<!ENTITY tbOptions.DisplayCurrentTab "Prikazane u trenutnoj kartici">
+<!ENTITY tbOptions.Send "Dodaj u termBlaster&apos;s popis pojmova">
+<!ENTITY tbOptions.cbQuote-label "Automatski citiraj tekst">
+<!ENTITY tbOptions.cbFocusResults-label "Uvijek fokusiraj rezultate">
+<!ENTITY tbOptions.cbDatabaseFolder-label "Smjesti stavke kontekstnog izbornika Popisa usluga izvan njegove vlastite podmape">
+<!ENTITY tbOptions.cbQuicklistFolder-label "Smjesti stavke kontekstnog izbornika Brzog popisa izvan njegove vlastite podmape">

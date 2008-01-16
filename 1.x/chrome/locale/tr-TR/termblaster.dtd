@@ -1,0 +1,33 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Seçilenle Ara">
+<!ENTITY tbBrowser.ql-menu "Hızlı Liste">
+<!ENTITY tbBrowser.db.hotkey "S">
+<!ENTITY tbBrowser.qk.hotkey "Q">
+<!ENTITY tbBlaster.title "Search Blaster">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "termBlaster&apos;i Kenarda Göster">
+<!ENTITY tbBlaster.search-label "Aranılacak Kelime Yazın:">
+<!ENTITY tbBlaster.search-tooltip "Arayacağınız Kelimeyi yazın ve Enter&apos;a Basın">
+<!ENTITY tbBlaster.terms_clear-label "Temizle">
+<!ENTITY tbBlaster.terms_new-label "Yeni">
+<!ENTITY tbBlaster.terms_open-label "Aç..">
+<!ENTITY tbBlaster.terms_save-label "Kaydet">
+<!ENTITY tbBlaster.terms_saveas-label "Farklı Kaydet">
+<!ENTITY tbBlaster.services_load-label "Yükle">
+<!ENTITY tbBlaster.services_load-command "termBlaster ayar penceresinden, &quot;Hızlı Liste Dosyası&quot; ayarlarını değiştirin">
+<!ENTITY tbOptions.Description "Dosya Yolları: (Başında http:// yada file:/// Ekleyin)">
+<!ENTITY tbOptions.Caption "termBlaster Seçenekleri">
+<!ENTITY tbOptions.DbLocation "Servis Listesi Dosyası:">
+<!ENTITY tbOptions.QlLocation "Hızlı Liste Dosyası:">
+<!ENTITY tbOptions.Browse "Gözat...">
+<!ENTITY tbOptions.Reload "Servis Listesini Tekrar Oku">
+<!ENTITY tbOptions.SearchAction "Aramaları Göster :">
+<!ENTITY tbOptions.DisplaySearchWindow "Arama Penceresinde Göster">
+<!ENTITY tbOptions.DisplayNewTab "Yeni Sekmede Göster">
+<!ENTITY tbOptions.DisplayNewWindow "Yeni Pencerede Göster">
+<!ENTITY tbOptions.DisplayCurrentTab "Aktif Sekmede Göster">
+<!ENTITY tbOptions.Send "termBlaster Terim Listesine ekle">
+<!ENTITY tbOptions.cbQuote-label "Otomatik Alıntı yazısı">
+<!ENTITY tbOptions.cbFocusResults-label "Sonuçları Odakla">
+<!ENTITY tbOptions.cbDatabaseFolder-label "Servis Listesini Klasorleriyle beraber Sağ menüye ekle">
+<!ENTITY tbOptions.cbQuicklistFolder-label "Hızlı Listeyi Klasörleriyle Sağ menüye ekle">

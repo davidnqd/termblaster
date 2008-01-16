@@ -1,0 +1,33 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Шукати виділене у">
+<!ENTITY tbBrowser.ql-menu "Лист швидкого доступу">
+<!ENTITY tbBrowser.db.hotkey "у">
+<!ENTITY tbBrowser.qk.hotkey "и">
+<!ENTITY tbBlaster.title "Search Blaster">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "Показати termBlaster у бічній панелі">
+<!ENTITY tbBlaster.search-label "Введіть текст для пошуку:">
+<!ENTITY tbBlaster.search-tooltip "Виберіть пошуковий сервер і натисніть enter">
+<!ENTITY tbBlaster.terms_clear-label "Очистити">
+<!ENTITY tbBlaster.terms_new-label "Новий">
+<!ENTITY tbBlaster.terms_open-label "Відкрити..">
+<!ENTITY tbBlaster.terms_save-label "Зберегти">
+<!ENTITY tbBlaster.terms_saveas-label "Зберегти як..">
+<!ENTITY tbBlaster.services_load-label "Завантажити">
+<!ENTITY tbBlaster.services_load-command "Змінюйте &quot;Файл списку швидкого доступу&quot;, у вікні налаштувань termBlaster,">
+<!ENTITY tbOptions.Description "Розташування файлу: (пам&apos;ятайте http:// чи file:///)">
+<!ENTITY tbOptions.Caption "Налаштування termBlaster">
+<!ENTITY tbOptions.DbLocation "Файл сервісного списку:">
+<!ENTITY tbOptions.QlLocation "Файл списку швидкого доступу:">
+<!ENTITY tbOptions.Browse "Огляд...">
+<!ENTITY tbOptions.Reload "Перезавантажити сервісний список">
+<!ENTITY tbOptions.SearchAction "Знайдене має бути:">
+<!ENTITY tbOptions.DisplaySearchWindow "показане у вікні пошуку">
+<!ENTITY tbOptions.DisplayNewTab "відображене у новій вкладці">
+<!ENTITY tbOptions.DisplayNewWindow "відображене у новому вікні">
+<!ENTITY tbOptions.DisplayCurrentTab "відображене у поточній вкадці">
+<!ENTITY tbOptions.Send "Додати до списку termBlaster">
+<!ENTITY tbOptions.cbQuote-label "Автоматично цитувати текст">
+<!ENTITY tbOptions.cbFocusResults-label "Результати завжди попереду">
+<!ENTITY tbOptions.cbDatabaseFolder-label "Розмістити пункти сервісного списку у контекстному меню поза чи в межах підпапки">
+<!ENTITY tbOptions.cbQuicklistFolder-label "Розмістити пункти сервісного списку у контекстному меню поза чи вмежах підпапки">

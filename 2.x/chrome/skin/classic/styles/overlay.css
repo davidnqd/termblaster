@@ -1,0 +1,10 @@
+.termblaster-icon-small {
+  list-style-image: url("chrome://termblaster/skin/icon_small.png");
+}
+.termblaster-icon-file {
+  list-style-image: url("chrome://termblaster/skin/file.png");
+  max-height: 20px;
+}
+.termblaster-icon-folder {
+  list-style-image: url("chrome://termblaster/skin/folder.png");
+}

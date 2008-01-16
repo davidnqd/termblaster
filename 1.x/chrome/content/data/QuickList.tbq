@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services version="1.2" allow_folders="False">
+  <service name="Google" query="http://www.google.com/search?q=$s" hotkey="Ctrl+G"/>
+  <service name="Yahoo" query="http://search.yahoo.com/search?p=$s" hotkey="Ctrl+Y"/>
+  <service name="MSN" query="http://search.live.com/results.aspx?q=$s"/>
+  <service name="Wikipedia" query="http://www.wikipedia.org/w/wiki.phtml?search=$s"/>
+  <service name="Dictionary.com" query="http://dictionary.reference.com/search?q=$s"/>
+  <service name="Thesaurus.com" query="http://thesaurus.reference.com/search?q=$s" hotkey="Ctrl+T"/>
+  <service name="SpellCheck.net" query="http://www.spellcheck.net/cgi-bin/spell.exe?action=CHECKWORD&amp;string=$s"/>
+  <service name="Google Maps" query="http://maps.google.com/maps?q=$s"/>
+</services>

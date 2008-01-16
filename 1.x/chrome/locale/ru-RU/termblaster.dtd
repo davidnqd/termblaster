@@ -1,0 +1,31 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Искать выделенное в">
+<!ENTITY tbBrowser.ql-menu "Короткий список">
+<!ENTITY tbBrowser.db.hotkey "S">
+<!ENTITY tbBrowser.qk.hotkey "Q">
+<!ENTITY tbBlaster.title "Ускоритель поиска">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "Отображает сайдбар termBlaster">
+<!ENTITY tbBlaster.search-label "Введите запрос:">
+<!ENTITY tbBlaster.search-tooltip "Введите запрос и нажмите enter">
+<!ENTITY tbBlaster.terms_clear-label "Очистить">
+<!ENTITY tbBlaster.terms_new-label "Новый">
+<!ENTITY tbBlaster.terms_open-label "Открыть...">
+<!ENTITY tbBlaster.terms_save-label "Сохранить">
+<!ENTITY tbBlaster.terms_saveas-label "Сохранить как...">
+<!ENTITY tbBlaster.services_load-label "Загрузить">
+<!ENTITY tbBlaster.services_load-command "В окне настроек termBlaster измените настройку &quot;Файл короткого списка&quot;">
+<!ENTITY tbOptions.Description "Адрес файла (не забывайте http:// или file:///)">
+<!ENTITY tbOptions.Caption "Настройки termBlaster">
+<!ENTITY tbOptions.DbLocation "Файл полного списка">
+<!ENTITY tbOptions.QlLocation "Файл короткого списка">
+<!ENTITY tbOptions.Browse "Просмотр...">
+<!ENTITY tbOptions.Reload "Перезагрузить списки">
+<!ENTITY tbOptions.SearchAction "Отображать результаты поиска:">
+<!ENTITY tbOptions.DisplaySearchWindow "в окне поиска">
+<!ENTITY tbOptions.DisplayNewTab "в новой вкладке">
+<!ENTITY tbOptions.DisplayNewWindow "в новой вкладке">
+<!ENTITY tbOptions.DisplayCurrentTab "в текущей вкладке">
+<!ENTITY tbOptions.Send "Добавить в список терминов termBlaster">
+<!ENTITY tbOptions.cbQuote-label "Автоматически цитировать текст">
+<!ENTITY tbOptions.cbFocusResults-label "Всегда переходить на результаты">

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--
+termBlaster extension for Mozilla Firefox
+Copyright (C) 2006 David Duong
+HomePage: http://termblaster.forizon.com
+
+LICENSE
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License (GPL)
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have recieved the lincence included with the disribution.
+If not visit http://www.gnu.org/copyleft/gpl.html
+-->
+<?xml-stylesheet href="chrome://termblaster/skin/styles/overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://termblaster/skin/styles/blaster-button.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://termblaster/locale/termblaster.dtd">
+<overlay id="termblaster-browser-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="global.js"/>
+  <script type="application/x-javascript" src="browser-overlay.js" />
+
+  <menupopup id="menu_ToolsPopup">
+    <menuitem id="termblaster-tools-blaster-menuitem"
+      label="&tbBlaster.label;"
+      class="menu-iconic termblaster-icon-small"
+      tooltiptext="&tbBlaster.tooltip;"
+      observes="viewBlaster"
+      insertafter="devToolsSeparator"/>
+  </menupopup>
+
+  <!-- This is for the right click menu. -->
+  <popup id="contentAreaContextMenu">
+    <menuseparator id="termblaster-separator"
+     insertbefore="context-sep-selectall" />
+    <menu id="termblaster-database-menu"
+     label="&tbBrowser.db-menu;"
+     accesskey="&tbBrowser.db.hotkey;"
+     class="menu-iconic termblaster-icon-small"
+     insertbefore="context-sep-selectall"
+     termblaster-root="true">
+      <menupopup id="termblaster-database-popup" />
+    </menu>
+    <menu id="termblaster-quicklist-menu"
+     label="&tbBrowser.ql-menu;"
+     accesskey="&tbBrowser.qk.hotkey;"
+     class="menu-iconic termblaster-icon-small"
+     insertbefore="context-sep-selectall"
+     termblaster-root="true">
+      <menupopup id="termblaster-quicklist-popup" />
+    </menu>
+  </popup>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="termblaster-blaster-button"
+      class="toolbarbutton-1"
+      label="&tbBlaster.label;"
+      tooltiptext="&tbBlaster.tooltip;"
+      observes="viewBlaster" />
+  </toolbarpalette>
+
+  <broadcasterset id="mainBroadcasterSet"> 
+    <broadcaster id="viewBlaster" 
+     label="&tbBlaster.title;"
+     autoCheck="false"
+     type="checkbox"
+     group="sidebar"
+     sidebarurl="chrome://termblaster/content/blaster.xul"
+     sidebartitle="&tbBlaster.title;"
+     sidebarcommand="cmd_viewBlaster"
+     oncommand="toggleSidebar('viewBlaster');" />
+  </broadcasterset>
+</overlay>

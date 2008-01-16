@@ -1,0 +1,33 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Chercher la sélection avec">
+<!ENTITY tbBrowser.ql-menu "Liste rapide">
+<!ENTITY tbBrowser.db.hotkey "S">
+<!ENTITY tbBrowser.qk.hotkey "r">
+<!ENTITY tbBlaster.title "Recherche turbo">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "Afficher le panneau latéral termBlaster">
+<!ENTITY tbBlaster.search-label "Entrez un terme à rechercher :">
+<!ENTITY tbBlaster.search-tooltip "Entrez une recherche et appuyez sur Entrée">
+<!ENTITY tbBlaster.terms_clear-label "Effacer">
+<!ENTITY tbBlaster.terms_new-label "Nouvelle">
+<!ENTITY tbBlaster.terms_open-label "Ouvrir...">
+<!ENTITY tbBlaster.terms_save-label "Enregistrer">
+<!ENTITY tbBlaster.terms_saveas-label "Enregisttrer sous...">
+<!ENTITY tbBlaster.services_load-label "Charger">
+<!ENTITY tbBlaster.services_load-command "Dans la fenêtre des paramètres de termBlaster, modifiez le &apos;Fichier de liste rapide&apos;">
+<!ENTITY tbOptions.Description "Emplacements des fichiers : (n&apos;oubliez pas http:// ou file:///)">
+<!ENTITY tbOptions.Caption "Options de termBlaster">
+<!ENTITY tbOptions.DbLocation "Fichier de la liste des services :">
+<!ENTITY tbOptions.QlLocation "Fichier de la liste rapide :">
+<!ENTITY tbOptions.Browse "Parcourir...">
+<!ENTITY tbOptions.Reload "Recharger les listes de services">
+<!ENTITY tbOptions.SearchAction "Les résultats de recherche doivent être affichées :">
+<!ENTITY tbOptions.DisplaySearchWindow "Dans la fenêtre de recherche">
+<!ENTITY tbOptions.DisplayNewTab "Dans un nouvel onglet">
+<!ENTITY tbOptions.DisplayNewWindow "Dans une nouvelle fenêtre">
+<!ENTITY tbOptions.DisplayCurrentTab "Dans l&apos;onglet courant">
+<!ENTITY tbOptions.Send "Ajouter à la liste de termes de termBlaster">
+<!ENTITY tbOptions.cbQuote-label "Citer automatiquement le texte">
+<!ENTITY tbOptions.cbFocusResults-label "Toujours proposer les résultats au premier plan">
+<!ENTITY tbOptions.cbDatabaseFolder-label "Placer les entrées du menu contextuel pour la liste des services en-dehors de leur sous-menu">
+<!ENTITY tbOptions.cbQuicklistFolder-label "Placer les entrées du menu contextuel pour la liste rapide en-dehors de leur sous-menu">

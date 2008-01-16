@@ -1,0 +1,33 @@
+<!ENTITY termblaster "termBlaster">
+<!ENTITY tbBrowser.db-menu "Buscar la selección con">
+<!ENTITY tbBrowser.ql-menu "Lista rápida">
+<!ENTITY tbBrowser.db.hotkey "B">
+<!ENTITY tbBrowser.qk.hotkey "R">
+<!ENTITY tbBlaster.title "Búsquedas Blaster">
+<!ENTITY tbBlaster.label "termBlaster">
+<!ENTITY tbBlaster.tooltip "Mostrar el panel lateral de termBlaster">
+<!ENTITY tbBlaster.search-label "Introduzca una búsqueda:">
+<!ENTITY tbBlaster.search-tooltip "Escriba la búsqueda y pulse enter">
+<!ENTITY tbBlaster.terms_clear-label "Borrar">
+<!ENTITY tbBlaster.terms_new-label "Nuevo">
+<!ENTITY tbBlaster.terms_open-label "Abrir...">
+<!ENTITY tbBlaster.terms_save-label "Guardar">
+<!ENTITY tbBlaster.terms_saveas-label "Guardar como...">
+<!ENTITY tbBlaster.services_load-label "Cargar">
+<!ENTITY tbBlaster.services_load-command "En la ventana de opciones de termBlaster, modifique la opción &quot;Archivo de lista rápida&quot;">
+<!ENTITY tbOptions.Description "Ubicación de los archivos: (recuerde incluir el http:// o file:///)">
+<!ENTITY tbOptions.Caption "termBlaster - Opciones">
+<!ENTITY tbOptions.DbLocation "Archivo de lista de servicios:">
+<!ENTITY tbOptions.QlLocation "Archivo de lista rápida:">
+<!ENTITY tbOptions.Browse "Seleccionar...">
+<!ENTITY tbOptions.Reload "Recargar lista de servicios">
+<!ENTITY tbOptions.SearchAction "Las búsquedas serán:">
+<!ENTITY tbOptions.DisplaySearchWindow "Mostradas en la ventana de búsquedas">
+<!ENTITY tbOptions.DisplayNewTab "Mostradas en una pestaña nueva">
+<!ENTITY tbOptions.DisplayNewWindow "Mostradas en una ventana nueva">
+<!ENTITY tbOptions.DisplayCurrentTab "Mostradas en la pestaña actual">
+<!ENTITY tbOptions.Send "Añadir a la lista de términos de termBlaster">
+<!ENTITY tbOptions.cbQuote-label "Citar texto automáticamente">
+<!ENTITY tbOptions.cbFocusResults-label "Resultados siempre en primer plano">
+<!ENTITY tbOptions.cbDatabaseFolder-label "Colocar el elemento contextual de la lista de servicios fuera de su propia subcarpeta">
+<!ENTITY tbOptions.cbQuicklistFolder-label "Colocar el elemento contextual de la lista rápida fuera de su propia subcarpeta">

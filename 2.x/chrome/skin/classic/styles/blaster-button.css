@@ -1,0 +1,6 @@
+#termblaster-blaster-button {
+  list-style-image: url("chrome://termblaster/skin/icon_med.png");
+}
+toolbar[iconsize="small"] #termblaster-blaster-button {
+  list-style-image: url("chrome://termblaster/skin/icon_small.png");
+}

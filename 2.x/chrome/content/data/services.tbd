@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services version="1.2" allow_folders="True">
+  <folder name="Web Search Engines" expanded="True">
+    <service name="Google" query="http://www.google.com/search?q=$s" stared="true" hotkey="Ctrl+G"/>
+    <service name="Yahoo" query="http://search.yahoo.com/search?p=$s" stared="true" hotkey="Ctrl+Y"/>
+    <service name="MSN" query="http://search.live.com/results.aspx?q=$s"/>
+    <service name="LookSmart" query="http://search.looksmart.com/p/search?qt=$s"/>
+    <service name="Altavista" query="http://www.altavista.com/web/results?q=$s"/>
+    <service name="Lycos" query="http://search.lycos.com/default.asp?query=$s"/>
+    <service name="Excite" query="http://msxml.excite.com/info.xcite/search/web/$s"/>
+    <service name="TEOMA" query="http://s.teoma.com/search?q=$s"/>
+    <service name="DogPile" query="http://www.dogpile.com/info.dogpl/search/web/$s"/>
+    <service name="WebCrawler" query="http://dpxml.webcrawler.com/info.wbcrwl/search/web/$s"/>
+    <service name="Search.com" query="http://www.search.com/search?q=$s"/>
+    <service name="Mamma" query="http://www.mamma.com/Mamma?query=$s"/>
+    <service name="dmoz" query="http://search.dmoz.org/cgi-bin/search?search=$s"/>
+    <service name="NetScape" query="http://search.netscape.com/ns/search?query=$s"/>
+    <service name="AOL" query="http://search.aol.com/aolcom/search?query=$s"/>
+    <service name="Ask Jeeves" query="http://web.ask.com/web?q=$s"/>
+    <service name="exalead" query="http://beta.exalead.com/search/q=$s"/>
+    <service name="GigaBlast" query="http://gigablast.com/search?q=$s"/>
+    <service name="WiseNut" query="http://wisenut.com/search/query.dll?q=$s"/>
+    <service name="AllTheWeb" query="http://www.alltheweb.com/search?q=$s"/>
+    <service name="MetaCrawler" query="http://www.metacrawler.com/info.metac/search/web/$s"/>
+    <service name="HotBot" query="http://www.hotbot.com/default.asp?query=$s"/>
+    <service name="Chubba" query="http://chubba2.whatuseek.com/cgi-bin/texis/scripts/search4?source=engine&amp;arg=$s"/>
+    <service name="Page Seeker" query="http://pageseeker.com/results.htm?search=$s"/>
+    <service name="Ditto" query="http://www.ditto.com/searchresults.asp?mainToolbar=webSelected&amp;ss=$s"/>
+    <service name="Clutsy" query="http://clusty.com/search?query=$s"/>
+  </folder>
+  <folder name="Word References">
+    <folder name="Dictionary">
+      <folder name="American">
+        <service name="The Newbury House Online Dictionary" query="http://nhd.heinle.com/Definition.aspx?word=$s"/>
+        <service name="Merriam-Webster Online" query="http://www.m-w.com/cgi-bin/dictionary?book=Dictionary&amp;va=$s"/>
+        <service name="Wordsmyth Educational Dictionary" query="http://www.wordsmyth.net/cgi-bin/search.cgi?submit=Define+it%21&amp;matchtype=exact&amp;matchent=$s"/>
+        <service name="WorldNet" query="http://www.cogsci.princeton.edu/cgi-bin/webwn/?stage=1&amp;word=$s"/>
+      </folder>
+      <folder name="British">
+        <service name="Cambridge Dictionary" query="http://dictionary.cambridge.org/cmd_search.asp?searchword=$s"/>
+      </folder>
+      <service name="Dictionary.com" stared="true" query="http://dictionary.reference.com/search?q=$s" hotkey="Ctrl+D"/>
+      <service name="Google Definitions" query="http://www.google.ca/search?q=define:$s"/>
+      <service name="yourdictionary" query="http://www.yourdictionary.com/ahd/search?p=$s"/>
+      <service name="The Free Dictionary" query="http://www.thefreedictionary.com/$s"/>
+      <service name="InfoPlease Dictionary" query="http://www.infoplease.com/search.php3?in=dictionary&amp;query=$s"/>
+      <service name="One Look" query="http://public.onelook.com/?w=$s&amp;ls=a"/>
+    </folder>
+    <folder name="Thesaurus">
+      <service name="Thesaurus.com" stared="true"
+               query="http://thesaurus.reference.com/search?q=$s" hotkey="Ctrl+T"/>
+      <service name="Merriam-Webster Thesaurus" query="http://www.m-w.com/cgi-bin/thesaurus?book=Thesaurus&amp;va=$s"/>
+      <service name="Wordsmyth Educational Dictionary" query="http://www.wordsmyth.net/cgi-bin/search.cgi?submit=Define+it%21&amp;matchtype=exact&amp;matchent=$s"/>
+    </folder>
+    <folder name="Encyclopedias">
+      <service name="Wikipedia" stared="true"
+               query="http://www.wikipedia.org/w/wiki.phtml?search=$s"
+               hotkey="Ctrl+W"/>
+      <service name="Encyclopedia" query="http://encyclopedia.com/searchpool.asp?target=$s"/>
+      <service name="Britannica" query="http://www.britannica.com/search?query=$s&amp;ct=&amp;fuzzy=N"/>
+      <service name="Everything2.com" query="http://www.everything2.com/?node=$s"/>
+      <service name="How Stuff Works" query="http://www.howstuffworks.com/search.php?search=$s"/>
+      <service name="Encarta" query="http://encarta.msn.com/encnet/refpages/SRPage.aspx?search=$s"/>
+      <service name="Webopedia" query="http://search.internet.com/www.webopedia.com?IC_QueryText=$s&amp;IC_QueryDatabase=www.webopedia.com"/>
+    </folder>
+    <folder name="Spell Check">
+      <service name="SpellCheck.net" stared="true" query="http://www.spellcheck.net/cgi-bin/spell.exe?action=CHECKWORD&amp;string=$s" hotkey="Ctrl+S"/>
+    </folder>
+    <service name="Answers" query="http://www.answers.com/$s" hotkey="Ctrl+A"/>
+    <service name="InfoPlease" query="http://www.infoplease.com/search.php3?query=$s"/>
+    <service name="Bartleby" query="http://www.bartleby.com/cgi-bin/texis/webinator/sitesearch?query=$s"/>
+    <service name="Acronym Finder" query="http://www.acronymfinder.com/af-query.asp?String=exact&amp;Acronym=$s&amp;Find=Find"/>
+  </folder>
+  <folder name="Translators">
+    <folder name="to English from..">
+      <folder name="French">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=fr_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=fr|en"/>
+      </folder>
+      <folder name="Dutch">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=nl_en"/>
+      </folder>
+      <folder name="Japanese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=ja_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=ja|en"/>
+      </folder>
+      <folder name="Korean">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=ko_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=ko|en"/>
+      </folder>
+      <folder name="Simplified Chinese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=zh_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=zh-CN|en"/>
+      </folder>
+      <folder name="Traditional Chinese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=zt_en"/>
+      </folder>
+      <folder name="Russian">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=ru_en"/>
+      </folder>
+      <folder name="Spanish">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=es_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=es|en"/>
+      </folder>
+      <folder name="German">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=de_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=de|en"/>
+      </folder>
+      <folder name="Italian">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=it_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=it|en"/>
+      </folder>
+      <folder name="Arabic">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=ar_en"/>
+      </folder>
+      <folder name="Portuguese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=pt_en"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=pt|en"/>
+      </folder>
+    </folder>
+    <folder name="from English to..">
+      <folder name="French">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_fr"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=en|fr"/>
+      </folder>
+      <folder name="Dutch">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_nl"/>
+      </folder>
+      <folder name="Japanese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_ja"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=en|ja"/>
+      </folder>
+      <folder name="Korean">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_ko"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=en|ko"/>
+      </folder>
+      <folder name="Simplified Chinese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_zh"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=en|zh-CN"/>
+      </folder>
+      <folder name="Traditional Chinese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_zt"/>
+      </folder>
+      <folder name="Russian">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_ru"/>
+      </folder>
+      <folder name="Spanish">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_es"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=en|es"/>
+      </folder>
+      <folder name="German">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_de"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=en|de"/>
+      </folder>
+      <folder name="Italian">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_it"/>
+      </folder>
+      <folder name="Arabic">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_ar"/>
+      </folder>
+      <folder name="Portuguese">
+        <service name="Babel Fish" query="http://babelfish.altavista.com/tr?trtext=$s&amp;lp=en_pt"/>
+        <service name="Google" query="http://translate.google.com/translate_t?text=$s&amp;langpair=en|pt"/>
+      </folder>
+    </folder>
+  </folder>
+  <folder name="Computers">
+    <folder name="Software">
+      <folder name="Freeware">
+        <service name="SnapFiles" query="http://www.snapfiles.com/downloadfind.php?st=$s&amp;action=s"/>
+        <service name="Nonags" query="http://www.nonagsplus.com/search/1site_search.asp?search=$s&amp;mode=allwords"/>
+        <service name="Freeware Home" query="http://216.40.227.17/cgi-bin/htsearch?config=FH&amp;words=games"/>
+        <service name="Freeware Files" query="http://www.freewarefiles.com/search.php?boolean=all&amp;categoryid=1&amp;categoryid=1&amp;query=$s&amp;type=all&amp;menu1="/>
+      </folder>
+      <service name="download.com" query="http://download.com.com/3120-20-0.html?qt=$s&amp;tg=dl-20&amp;search=+Go%21+"/>
+      <service name="BetaNews" query="http://fileforum.betanews.com/search?search=$s"/>
+      <service name="Downseek" query="http://www.downseek.com/search?f=$s"/>
+      <service name="File Mine" query="http://itprodownloads.com/searchResults?queryText=$s&amp;Action=FilterSearch&amp;Filter=fmfilter.hts&amp;ResultTemplate=fmresults.hts&amp;ViewTemplate=view.hts&amp;baseref=1&amp;platformid=0"/>
+      <service name="ZDNet" query="http://zdnet.search.com/search?q=$s"/>
+    </folder>
+    <folder name="Programming">
+      <service name="PHP Function Lookup" query="http://php.net/$s" hotkey="Ctrl+P"/>
+      <service name="MSDN" query="http://search.microsoft.com/search/results.aspx?st=b&amp;na=80&amp;qu=$s&amp;View=en-us"/>
+      <service name="SourceForge" query="http://sourceforge.net/search/?type_of_search=soft&amp;words=$s"/>
+      <service name="Freshmeat" query="http://freshmeat.net/search/?q=$s"/>
+    </folder>
+    <folder name="Script Directories">
+      <folder name="PHP">
+        <service name="PHP Resource Index" query="http://php.resourceindex.com/search/index.cgi?search=$s"/>
+        <service name="Hotscripts PHP" query="http://hotscripts.com/search/index.html?query=$s&amp;command=do_search_mm&amp;category=php"/>
+      </folder>
+      <folder name="DHTML">
+        <service name="Script Locker Javascript" query="http://hotscripts.com/search/index.html?query=$s&amp;command=do_search_mm&amp;category=JavaScript"/>
+        <service name="Hotscripts" query="http://hotscripts.com/search/index.html?query=$s&amp;command=do_search_mm&amp;category=javascript"/>
+      </folder>
+      <service name="Hotscripts.com" query="http://hotscripts.com/search/index.html?query=$s&amp;command=do_search_mm"/>
+      <service name="scriptsearch.com" query="http://www.scriptsearch.com/cgi-bin/search.cgi?searchfrom=left&amp;q=$s"/>
+    </folder>
+    <folder name="Startup/Process Information">
+      <service name="ProcessLibrary.com" query="http://www.processlibrary.com/directory/files/$s/index.php"/>
+      <service name="Paul Collins list of startup entries" query="http://www.sysinfo.org/startuplist.php?filter=$s"/>
+      <service name="Bleeping Computer startup" query="http://www.bleepingcomputer.com/startups/?act=search&amp;keyword=$s"/>
+    </folder>
+    <service name="FileExt" query="http://filext.com/detaillist.php?extdetail=$s"/>
+  </folder>
+  <folder name="News">
+    <folder name="Blogosphere">
+      <service name="Technorati" query="http://www.technorati.com/search/$s"/>
+    </folder>
+    <folder name="Podcasts">
+      <service name="Odeo" query="http://www.odeo.com/find/$s"/>
+    </folder>
+    <folder name="Sports">
+      <service name="ESPN" query="http://search.espn.go.com/keyword/search?searchString=$s"/>
+    </folder>
+    <folder name="Stocks">
+      <service name="MarketWatch" query="http://www.marketwatch.com/tools/quotes/quotes.asp?symb=$s"/>
+    </folder>
+    <folder name="Weather">
+      <service name="Lycos Weather" query="http://weather.lycos.com/?q=$s"/>
+      <service name="Weather Underground" query="http://www.weatherunderground.com/cgi-bin/findweather/getForecast?query=$s"/>
+      <service name="Yahoo Weather" query="http://search.weather.yahoo.com/search/weather2?p=$s"/>
+      <service name="The Weather Channel" query="http://www.weather.com/search/search?where=$s"/>
+    </folder>
+    <service name="Google News" query="http://news.google.com/news?hl=en&amp;q=$s"/>
+    <service name="CNN" query="http://cnn.looksmart.com/r_search?l&amp;izch&amp;col=cnni&amp;venue=all&amp;search=0&amp;key=$s"/>
+    <service name="BBC News" query="http://www.bbc.co.uk/cgi-bin/search/results.pl?advanced=allbbc&amp;tab=news&amp;q=$s"/>
+    <service name="Reuters" query="http://www.reuters.com/contentsearch_result.jhtml?dd=np&amp;position=1&amp;query=$s"/>
+    <service name="The New York Times" query="http://query.nytimes.com/search/query?query=$s&amp;date=past30days"/>
+    <service name="The Washington Post" query="http://www.washingtonpost.com/cgi-bin/search99.pl?searchtext=$s&amp;searchdatabase=news"/>
+    <service name="USA Today" query="http://asp.usatoday.com/search/search.aspx?q=$s"/>
+    <service name="Yahoo News" query="http://search.news.yahoo.com/search/news/?p=$s&amp;ei=UTF-8"/>
+    <service name="MSN" query="http://search.msn.com/news/results.aspx?q=$s"/>
+  </folder>
+  <folder name="Reviews">
+    <folder name="Anime">
+      <service name="AnimeNfo" query="http://www.animenfo.com/search.php?option=keywords&amp;query=$s&amp;queryin=anime_titles"/>
+    </folder>
+    <folder name="Games">
+      <service name="IGN" query="http://my.ign.com/my/sb?pageID=2003&amp;nuaction=gameSearch&amp;gameTitleSearch=$s"/>
+      <service name="GameSpot" query="http://www.gamespot.com/search.html?qs=$s"/>
+      <service name="GameFAQs" query="http://www.gamefaqs.com/search/index.html?game=$s"/>
+    </folder>
+    <service name="IMDb" query="http://www.imdb.com/find?q=$s;s=all"/>
+    <service name="Rotten Tomatoes" query="http://www.rottentomatoes.com/search/movie.php?search=$s"/>
+    <service name="Yahoo Movies" query="http://search.movies.yahoo.com/moviesintgsearch?search=all&amp;p=$s"/>
+    <service name="MRQE" query="http://www.mrqe.com/lookup?isindex=$s"/>
+  </folder>
+  <folder name="Shopping">
+    <folder name="Auctions">
+      <service name="eBay" query="http://search.ebay.com/search/search.dll?MfcISAPICommand=GetResult&amp;ht=1&amp;SortProperty=MetaEndSort&amp;query=$s"/>
+    </folder>
+    <service name="Amazon.com" query="http://www.amazon.com/exec/obidos/external-search/102-8762757-3491359?keyword=$s"/>
+    <service name="half.com" query="http://www.half.com/search/search.jsp?product=all&amp;keyword=$s"/>
+  </folder>
+  <folder name="Images">
+    <service name="Google" query="http://images.google.ca/images?q=$s"/>
+    <service name="Ditto" query="http://www.ditto.com/searchresults.aspx?mainToolbar=imageSelected&amp;ss=$s"/>
+    <service name="metacrawler" query="http://www.metacrawler.com/info.metac/search/images/$s"/>
+    <service name="Ask Jeeves" query="http://pictures.ask.com/pictures?q=$s"/>
+    <service name="Flickr" query="http://www.flickr.com/photos/tags/$s"/>
+  </folder>
+  <folder name="Torrents">
+    <service name="BitTorrent" query="http://search.bittorrent.com/search.jsp?query=$s"/>
+    <service name="TorrentReactor" query="http://tr.searching.com/search.php?words=$s"/>
+    <service name="The Pirate Bay" query="http://thepiratebay.org/search.php?q=$s"/>
+  </folder>
+  <folder name="Maps">
+    <service name="Google Maps" stared="true" query="http://maps.google.com/maps?q=$s"/>
+  </folder>
+  <folder name="Misc">
+    <service name="WebMD" query="http://www.webmd.com/search/search_results/default.aspx?query=$s"/>
+    <service name="del.icio.us" query="http://del.icio.us/search/?all=$s"/>
+  </folder>
+</services>
