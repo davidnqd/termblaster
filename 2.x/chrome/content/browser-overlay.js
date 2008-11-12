@@ -14,6 +14,20 @@
 // You should have recieved the lincence included with the disribution.
 // If not visit http://www.gnu.org/copyleft/gpl.html
 // ----------------------------------------------------------------------
+
+// @TODO THIS IS A QUICKFIX
+function encode(string) {
+  var result = "";
+  for (var i = 0; i < string.length; i++) {
+    if (string[i] != '+' && string.charCodeAt(i) < 128) {
+      result += encodeURIComponent(string[i]);
+    } else {
+      result += string[i];
+    }
+  }
+  return result;
+}
+
 /** Observer to update termBlaster when needed */
 function TermBlaster_OptionsObserver(placesManager) {
     this.placesManager = placesManager;
@@ -466,8 +480,7 @@ var termBlaster = {
         }
 
         // Prepare the search query for a GET request
-        sQuery = sQuery.replace('\$s',
-                            encodeURIComponent(selection).replace('\%20', '+'));
+        sQuery = sQuery.replace('\$s', encode(selection));
 
         // Display the results in the user's preffered destination target
         var destination = prefs

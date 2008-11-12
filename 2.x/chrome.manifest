@@ -1,17 +1,18 @@
-content	termblaster			chrome/content/ xpcnativewrappers=yes
-locale	termblaster	de-DE		chrome/locale/de-DE/
-locale	termblaster	en-US		chrome/locale/en-US/
-locale	termblaster	es-AR		chrome/locale/es-AR/
-locale	termblaster	es-ES		chrome/locale/es-ES/
-locale	termblaster	fr-FR		chrome/locale/fr-FR/
-locale	termblaster	hr-HR		chrome/locale/hr-HR/
-locale	termblaster	it-IT		chrome/locale/it-IT/
-locale	termblaster	pt-BR		chrome/locale/pt-BR/
-locale	termblaster	ru-RU		chrome/locale/ru-RU/
-locale	termblaster	tr-TR		chrome/locale/tr-TR/
-locale	termblaster	uk-UA		chrome/locale/uk-UA/
-locale	termblaster	zn-CN		chrome/locale/zn-CN/
-locale	termblaster	zh-TW		chrome/locale/zh-TW/
-skin	termblaster	classic/1.0	chrome/skin/classic/
-style	chrome://global/content/customizeToolbar.xul	chrome://termblaster/skin/styles/blaster-button.css
-overlay	chrome://browser/content/browser.xul		chrome://termblaster/content/browser-overlay.xul
+content   termblaster                 chrome/content/      xpcnativewrappers=yes
+locale    termblaster    de-DE        chrome/locale/de-DE/
+locale    termblaster    en-US        chrome/locale/en-US/
+locale    termblaster    es-AR        chrome/locale/es-AR/
+locale    termblaster    es-ES        chrome/locale/es-ES/
+locale    termblaster    fr-FR        chrome/locale/fr-FR/
+locale    termblaster    hr-HR        chrome/locale/hr-HR/
+locale    termblaster    it-IT        chrome/locale/it-IT/
+locale    termblaster    pt-BR        chrome/locale/pt-BR/
+locale    termblaster    ru-RU        chrome/locale/ru-RU/
+locale    termblaster    tr-TR        chrome/locale/tr-TR/
+locale    termblaster    uk-UA        chrome/locale/uk-UA/
+locale    termblaster    zn-CN        chrome/locale/zn-CN/
+locale    termblaster    zh-TW        chrome/locale/zh-TW/
+locale    termblaster    nl-NL        chrome/locale/nl-NL/
+skin      termblaster    classic/1.0  chrome/skin/classic/
+style     chrome://global/content/customizeToolbar.xul    chrome://termblaster/skin/styles/blaster-button.css
+overlay   chrome://browser/content/browser.xul            chrome://termblaster/content/browser-overlay.xul

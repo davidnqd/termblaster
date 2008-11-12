@@ -5,7 +5,7 @@
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="termblaster@forizon.com"
                    em:name="termBlaster with Firefox"
-                   em:version="2.0.0"
+                   em:version="2.0.2"
                    em:creator="David Duong"
                    em:homepageURL="http://termblaster.forizon.com/mozilla"
                    em:iconURL="chrome://termblaster/skin/icon.png"
